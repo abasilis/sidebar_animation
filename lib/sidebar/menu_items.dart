@@ -7,7 +7,7 @@ class MenuItems extends StatelessWidget {
 
   final IconData icon;
   final String title;
-  final Function onTap;
+  final Function? onTap;
 
   @override
   Widget build(BuildContext context) {
