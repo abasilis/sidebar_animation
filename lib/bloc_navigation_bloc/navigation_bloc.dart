@@ -14,7 +14,7 @@ enum NavigationEvents {
 abstract class NavigationStates {}
 
 class NavigationBloc extends Bloc<NavigationEvents, NavigationStates> {
-  NavigationBloc(NavigationStates initialState) : super(initialState);
+  NavigationBloc() : super(initialState);
 
   @override
   NavigationStates get initialState => const HomePage();
